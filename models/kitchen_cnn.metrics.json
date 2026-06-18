@@ -1,0 +1,56 @@
+{
+  "classes": [
+    "가위",
+    "국자",
+    "뒤집개",
+    "집게",
+    "칼"
+  ],
+  "best_val_loss": 0.2565105029055254,
+  "best_val_accuracy": 0.9748660898228265,
+  "test_accuracy": 0.9764948453608248,
+  "mean_test_confidence": 0.9448406579936902,
+  "augmentation": {
+    "rotation_degrees": 180.0,
+    "horizontal_flip_probability": 0.0,
+    "grayscale_probability": 0.15
+  },
+  "confusion_matrix": [
+    [
+      586,
+      0,
+      3,
+      4,
+      1
+    ],
+    [
+      0,
+      556,
+      2,
+      5,
+      2
+    ],
+    [
+      3,
+      7,
+      543,
+      1,
+      2
+    ],
+    [
+      5,
+      4,
+      1,
+      453,
+      5
+    ],
+    [
+      0,
+      6,
+      0,
+      6,
+      230
+    ]
+  ],
+  "elapsed_seconds": 1043.0050268173218
+}
